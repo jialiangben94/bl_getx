@@ -1,7 +1,8 @@
 name: bl_getx
-description: A new flutter plugin project.
+description: Custom base with getx package
 version: 0.0.1
-homepage:
+homepage: https://github.com/jialiangben94/bl_getx.git
+repository: https://github.com/jialiangben94/bl_getx.git
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
