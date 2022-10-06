@@ -73,7 +73,7 @@ loadPageWithRemoveAllPrevious(
   BasePage page,
 ) async {
   await Future.delayed(const Duration(milliseconds: 100));
-  Get.offNamedUntil(page.routeName, (route) => route == null, arguments: page);
+  Get.offAllNamed(page.routeName, arguments: page);
 }
 
 backTo(BasePage page) {
